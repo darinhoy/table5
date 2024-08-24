@@ -1,0 +1,52 @@
+body{
+    background-color: #f4f4f4;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+table{
+    font-family: 'Arial', sans-serif;
+    width: 90%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    margin: 60px auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    overflow: hidden;
+    border-radius: 4px;
+    text-align-last: left;
+}
+td ,th{
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+th{
+    font-weight: bold;
+    background:rgb(90, 222, 90);
+}
+tr{
+    border-bottom: 1px solid #ddd;
+}
+tr:nth-child(even){
+    background: #f9f9f9;
+}
+tr:nth-child(odd){
+    background: white;
+}
+.button{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin: 3px;
+}
+.btn-blue{
+    background: rgb(92, 158, 199);
+}
+.btn-red{
+    background: red;
+}
+.btn-orange{
+    background: orange;
+}
