@@ -11,7 +11,7 @@ table{
     border-collapse: collapse;
     border: 1px solid #ddd;
     margin: 60px auto;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
     overflow: hidden;
     border-radius: 4px;
     text-align-last: left;
